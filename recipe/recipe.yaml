@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: skore-cli
-  version: "0.4.1"
+  version: "0.5.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/skore_cli-${{ version }}.tar.gz
-  sha256: 6efb47ad54c7bd0288712600aa74925e77a4090729bc6028013bf57c018e98d3
+  sha256: 8bdfdc1c62bdd18152784fdd4940730cdbbeb7115a03a8be765cf6849d881ee9
 
 build:
   number: 0
